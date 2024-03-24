@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832024335531",
+    "project_id": "vehicle-tech-mate",
+    "storage_bucket": "vehicle-tech-mate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832024335531:android:51890a92b65d6b553a53ee",
+        "android_client_info": {
+          "package_name": "com.example.sdgp_95"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsXpBh72kgWXt0O-rYh1_W_wRwTrSfNB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
