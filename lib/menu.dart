@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:sdgp_95/login/authentication.dart';
+import 'package:sdgp_95/model_work/ui/scan_screen.dart';
 import 'package:sdgp_95/reminder/reminder_screen.dart';
 import 'package:sdgp_95/upload_image/upload_image_screen.dart';
 import 'package:sdgp_95/vehicle/vehicle_add_update.dart';
@@ -57,6 +58,18 @@ class FullScreenMenu extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => VehicleUpdateAddPage()), // Navigate to Add Reminder page
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Iconsax.setting),
+            title: const Text('Spare Parts Finder'),
+            onTap: () {
+              // Implement upload image functionality here
+              Navigator.pop(context);// Close the menu
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ScanScreen()), // Navigate to Add Reminder page
               );
             },
           ),

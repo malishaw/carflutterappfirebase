@@ -1,0 +1,6 @@
+windsheild
+light
+door
+dickey
+bumper
+bonnet

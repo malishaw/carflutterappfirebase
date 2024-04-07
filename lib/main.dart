@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:sdgp_95/splash_screen.dart';
+import 'bottom_nav_bar.dart';
 import 'firebase_options.dart';
 
 void main() async{
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home : SplashScreen()
+      home : BottomNavigation()
+      // home : SplashScreen()
     );
   }
 }
